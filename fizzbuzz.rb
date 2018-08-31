@@ -4,8 +4,8 @@ def fizzbuzz(int)
     "Fizz"
   elseif int % 5 == 0
       "buzz"
+  elseif(int % 3 != 0) && (int % 5 != 0)
+          nil
   elseif(int % 3 == 0) && (int % 5 == 0)
       "FizzBuzz"
-  elseif(int % 3 != 0) && (int % 5 != 0)
-      nil
 end
